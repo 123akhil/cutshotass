@@ -12,7 +12,7 @@ export default function Final() {
           Your have completed onboarding, you can start using Eden!
         </div>
         <a className="mt-4 w-full" href="/user/dashboard">
-          <button className="cursor-pointer rounded-lg bg-violet-600 py-4 text-white text-xs transition duration-200 ease-in-out hover:bg-slate-700 hover:text-white w-[92%] ml-4" onClick={(e)=> {e.preventDefault();
+          <button className="cursor-pointer rounded-lg bg-violet-600 py-4 text-white text-xs transition duration-200 ease-in-out hover:bg-violet-700 hover:text-white w-[92%] ml-4" onClick={(e)=> {e.preventDefault();
     console.log(userData)}}>
             Launch Eden
           </button>
