@@ -17,5 +17,3 @@ export function useStepperContext() {
 
   return { userData, setUserData };
 }
-
-

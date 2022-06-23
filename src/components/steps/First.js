@@ -11,11 +11,11 @@ export default function First() {
   return (
     <div className="flex flex-col ">
       <div className="font-semibold text-3xl text-black text-center">
-          Welcome! First things first...
-        </div>
-        <div className="mt-4 mb-6 text-gray-500 text-center text-sm">
-          Your can always change them later.
-        </div>
+        Welcome! First things first...
+      </div>
+      <div className="mt-4 mb-6 text-gray-500 text-center text-sm">
+        Your can always change them later.
+      </div>
       <div className="mx-2 w-full flex-1">
         <div className="mt-3 h-6 text-xs font-bold leading-7 text-gray-500">
           Full Name

@@ -12,12 +12,21 @@ export default function Third() {
       </div>
       <div className="w-full mx-2 flex items-center justify-between">
         <div
-          className={`border border-gray-200 rounded-md w-[46%] hover:border-violet-500 cursor-pointer ${userData.TypeofMembership === 'single' ? "border-violet-500" : "border-gray-200" }`}
-          onClick={()=> setUserData({ ...userData, TypeofMembership: "single" })} >
+          className={`border border-gray-200 rounded-md w-[46%] hover:border-violet-500 cursor-pointer ${
+            userData.TypeofMembership === "single"
+              ? "border-violet-500"
+              : "border-gray-200"
+          }`}
+          onClick={() =>
+            setUserData({ ...userData, TypeofMembership: "single" })
+          }
+        >
           <div className="m-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className={`h-6 w-6 my-5 mx-3 ${userData.TypeofMembership === 'single' ? "text-violet-500" : "" }`}
+              className={`h-6 w-6 my-5 mx-3 ${
+                userData.TypeofMembership === "single" ? "text-violet-500" : ""
+              }`}
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -36,13 +45,19 @@ export default function Third() {
           </div>
         </div>
         <div
-          className={`border border-gray-200 rounded-md w-[46%] hover:border-violet-500 cursor-pointer ${userData.TypeofMembership === 'Team' ? "border-violet-500" : "border-gray-200" }`}
-          onClick={()=> setUserData({ ...userData, TypeofMembership: "Team" })}
+          className={`border border-gray-200 rounded-md w-[46%] hover:border-violet-500 cursor-pointer ${
+            userData.TypeofMembership === "Team"
+              ? "border-violet-500"
+              : "border-gray-200"
+          }`}
+          onClick={() => setUserData({ ...userData, TypeofMembership: "Team" })}
         >
           <div className="m-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className={`h-6 w-6 my-5 mx-3 ${userData.TypeofMembership === 'Team' ? "text-violet-500" : "" }`}
+              className={`h-6 w-6 my-5 mx-3 ${
+                userData.TypeofMembership === "Team" ? "text-violet-500" : ""
+              }`}
               viewBox="0 0 20 20"
               fill="currentColor"
             >
